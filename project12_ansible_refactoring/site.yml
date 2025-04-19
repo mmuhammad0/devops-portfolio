@@ -1,0 +1,7 @@
+---
+- hosts: all
+  import_playbook: static-assignments/common.yml    # من مشروع 11
+- hosts: all
+  import_playbook: static-assignments/common-del.yml  # حذف wireshark من Project12
+- hosts: uat-webservers
+  import_playbook: static-assignments/uat-webservers.yml

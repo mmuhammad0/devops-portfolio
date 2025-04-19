@@ -1,0 +1,11 @@
+[webservers]
+<dev-web-ip> ansible_ssh_user=ec2-user
+
+[nfs]
+<nfs-ip> ansible_ssh_user=ec2-user
+
+[db]
+<db-ip> ansible_ssh_user=ec2-user
+
+[lb]
+<lb-ip> ansible_ssh_user=ubuntu
